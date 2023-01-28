@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true" name="/Users/mihailhariton/IdeaProjects/testng_second_project_5">
+        <classes>
+            <class name="scripts.UnitedBasePageTest">
+                <methods>
+                    <include name="validateMainMenuOptions"/>
+                    <include name="validateBookTravelMenuNavigationItems"/>
+                    <include name="validateRadioButtons"/>
+                    <include name="validateBookWithMilesAndFlexibleDatesCheckboxes"/>
+                    <include name="validateOneWayTicketSearchResults"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
